@@ -1,79 +1,87 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Article Page</title>
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
- </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
 
-  <body>
+<body>
 
-    <div class="header">
+    <!-- Header -->
+    <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 logo">
-                    <P><b>LOGO</b></P>
+                <div class="col-lg-2 logo">
+                    <b>LOGO</b>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
 
                 </div>
-                <div class="col-md-4 menu">
+                <div class="col-lg-4 menu">
                     <a href="#">HOME</a>
                     <a href="#">DISCOVERY</a>
                     <a href="#">PHOTOS</a>
                     <a href="#">CONTACT</a>
+                    <a href="#"><img src="img/avatar.png" alt="Avatar"></a>
                 </div>
             </div>
-        </div>    
-    </div>
+        </div>
+    </header>
+    <!-- End Of Header-->
 
     <div class="news">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 news_header">
-                    <i class="fa fa-home" id="home" ></i>
-                    <a href="#">STORY</a>
-                    <a>/</a>
-                    <a href="#">WORLD NEWS</a>
+        <div class="container-fluid">
+            <div class="row news_header">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 news_header_route">
+                    <span>
+                        <i class="fa fa-home" id="home"></i>
+                        <a href="#">STORY</a>
+                        /
+                        <a href="#">WORLD NEWS</a>
+                    </span>
                 </div>
-                <div class="col-md-6 news_header_icon">
-                    <a href="#"><i class="fa fa-align-right" style="font-size:18px; color:#000"></i></a>
+                <div class="col-lg-5 news_header_icon">
+                    <a href="#"><i class="fa fa-filter filter"></i></a>
                 </div>
+                <div class="col-lg-1"></div>
             </div>
 
             <div class="row news_content">
-                <div class="col-md-6 news_image">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 news_image">
                     <h2>WORLD NEWS</h2>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
-                <div class="col-md-6 search_form">
+                <div class="col-lg-5 search_form">
                     <form>
-                        <label>Select a date</label><br/>
+                        <label>Select a date</label><br />
                         <select>
-                            <option>Select..</option>    
-                        </select><br/>
+                            <option>Select..</option>
+                        </select><br />
                         <label>Enter the first keyword</label><br />
                         <input type="text" />
                     </form>
                     <a href="#">SEARCH</a>
                 </div>
+                <div class="col-lg-1"></div>
             </div>
-         </div>   
+        </div>
     </div>
     <footer>
-        
+
     </footer>
 
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
