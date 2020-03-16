@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+header{
+    margin-top: 20px;
+}
+
+.top-nav {
+    display: inline;
+}
+.top-nav a {
+    text-decoration: none;
+    font-weight: 800;
+}
+.top-nav >a {
+    padding-left: 12px;
+    color: #f08080;
+}
+
+.top-nav nav {
+    float: right;
+    position: relative;
+}
+
+.top-nav ul {
+    display: inline;
+}
+
+.top-nav li {
+    display: inline;
+    padding: 0px 20px 20px 0;
+}
+.top-nav li>a{
+    color: #808080;
+}
